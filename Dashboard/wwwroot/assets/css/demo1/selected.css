@@ -1,0 +1,17 @@
+select {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    /* needed */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* SVG background image */
+    border: 1px solid;
+    border-color: #6571ff;
+    background-position: calc(100% - 1.3em) center;
+}
+
+    select::-ms-expand {
+        display: none;
+    }
